@@ -1,0 +1,68 @@
+:root{
+    /*
+    --primary-color: #673ab7;
+    --dark-primary-color: #512DA8;
+    --light-primary-color: #D1C4E9;
+    --text-icons-color: #FFFFFF;
+    --accent-color: #607D8B;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --divider-color: #BDBDBD;
+    */
+
+    --primary-color: #9c27b0;
+    --dark-primary-color: #7B1FA2;
+    --light-primary-color: #e1bee7;
+    --text-icons-color: #FFFFFF;
+    --accent-color: #607d8b;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --divider-color: #BDBDBD;
+
+
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.bg-custom-primary{
+    background-color: var(--primary-color);
+}
+
+.bg-custom-dark-primary{
+    background-color: var(--dark-primary-color);
+}
+
+.bg-custom-light-primary{
+    background-color: var(--light-primary-color);
+}
+
+.custom-icon-color{
+    color: var(--text-icons-color);
+}
+
+.bg-custom-accent{
+    background-color: var(--accent-color);
+}
+
+.text-custom-primary-color{
+    color: var(--primary-text-color);
+}
+
+.text-custom-secondary-color{
+    color: var(--secondary-text-color);
+}
+
+.divider-custom-color{
+    color: var(--divider-color);
+}
